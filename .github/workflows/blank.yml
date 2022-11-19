@@ -45,3 +45,5 @@ jobs:
           --elf=/home/runner/work/test_ci/test_ci/build/flutter_assets/app.so \
           --strip \
           /home/runner/work/test_ci/test_ci/build/kernel_snapshot.dill
+      
+      - uses: stefanzweifel/git-auto-commit-action@v4
