@@ -29,6 +29,9 @@ jobs:
       - name: Run a one-line script
         run: chmod 755 ./flutter-engine/install.sh
       
+      - name: Run a one-line script
+        run: ls /home/runner/work/test_ci/test_ci
+
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: ./flutter-engine/install.sh
